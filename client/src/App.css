@@ -35,9 +35,12 @@
   border: 1px solid white;
   border-radius: 10px;
   text-align: center;
+  position: relative;
 }
 
-.deck:hover {
-  background: #eee;
-  cursor: pointer;
+.deck button {
+  position: absolute;
+  font-size: 10px;
+  top: 5px;
+  right: 5px;
 }
